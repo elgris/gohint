@@ -15,7 +15,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/wlbr/hint"
+	"github.com/elgris/hint"
 )
 
 var reporterName = flag.String("reporter", "plain", "name of reported to generate ouput. Available: plain, checkstyle")
